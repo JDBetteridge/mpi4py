@@ -1,0 +1,17 @@
+diff --git a/setup.py b/setup.py
+index bbe99e9b..0dc51a91 100644
+--- a/setup.py
++++ b/setup.py
+@@ -125,6 +125,12 @@ package_info = dict(
+         'mpi4py' : [
+             '*.pxd',
+             'MPI*.h',
++            'bin/*',
++            'lib/*',
++            'lib/pkgconfig/*',
++            'lib/ucx/*',
++            'include/*.h',
++            'include/*.mod',
+             'include/mpi4py/*.h',
+             'include/mpi4py/*.i',
+             'include/mpi4py/*.pxi',
